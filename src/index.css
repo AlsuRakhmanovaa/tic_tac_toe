@@ -74,13 +74,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #171717;
+  border-color: #f6e35a;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #030303;
+  color: #f6e35a;
 }
 
 #players button {
@@ -189,7 +189,7 @@ ol {
   padding: 1rem;
 }
 
-#game-over {
+/* #game-over {
   position: absolute;
   top: 0;
   left: 0;
@@ -282,7 +282,7 @@ ol {
   color: #23221f;
   font: inherit;
   margin-top: 1.5rem;
-}
+} */
 
 @keyframes slide-in-from-left {
   0% {
@@ -335,7 +335,7 @@ ol {
 }
 
 /* Fancy animation for showing the "Game Over" element */
-@keyframes pop-in {
+/* @keyframes pop-in {
   0% {
     transform: scale(0);
     opacity: 0;
@@ -347,4 +347,4 @@ ol {
   100% {
     transform: scale(1);
   }
-}
+} */
