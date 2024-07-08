@@ -236,7 +236,7 @@ ol {
   color: #3f3b00;
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
-}
+} */
 
 #log {
   max-width: 20rem;
@@ -258,7 +258,7 @@ ol {
   color: white;
 }
 
-#game-hints {
+/* #game-hints {
   text-align: center;
   color: #46432f;
 }
@@ -282,7 +282,7 @@ ol {
   color: #23221f;
   font: inherit;
   margin-top: 1.5rem;
-} */
+} */ 
 
 @keyframes slide-in-from-left {
   0% {
