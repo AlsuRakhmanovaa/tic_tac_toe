@@ -74,13 +74,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #fafafa;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: #fafafa;
 }
 
 #players button {
@@ -134,7 +134,7 @@ h1 {
 .player-symbol {
   margin-left: 1rem;
   font-size: 1rem;
-  color: #dddcd5;
+  color: #87afdf;
 }
 
 ol {
@@ -150,9 +150,9 @@ ol {
 #pre-game button {
   cursor: pointer;
   background: none;
-  color: #f8c031;
+  color: #4231f8;
   border: none;
-  font-family: 'Caprasimo', cursive;
+  font-family: "Signika Negative", sans-serif;
   font-size: 4rem;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
   animation: pulse-text-size 2s infinite ease-out;
@@ -185,7 +185,7 @@ ol {
   color: #002236;
   font-size: 5rem;
   cursor: pointer;
-  font-family: 'Caprasimo', cursive;
+  font-family: "Signika Negative", sans-serif;
   padding: 1rem;
 }
 
@@ -204,7 +204,7 @@ ol {
 }
 
 #game-over h2 {
-  font-family: 'Caprasimo', cursive;
+  font-family: "Signika Negative", sans-serif;
   font-size: 4rem;
   text-align: center;
   color: #e2eaed;
@@ -214,7 +214,7 @@ ol {
 #game-over p {
   font-size: 2rem;
   text-align: center;
-  color: #e1dec7;
+  color: #e2eaed;
 }
 
 #game-over button {
@@ -232,10 +232,10 @@ ol {
 }
 
 #game-over button:hover {
-  background: #e2dcca;
-  color: #3f3b00;
+  background: #87afdf;
+  color: #ffffff;
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(220, 204, 161, 0.8);
+  box-shadow: 0 0 20px rgba(63, 101, 126, 0.8);
 } 
 
 #log {
@@ -257,32 +257,6 @@ ol {
   background-color: #3f3b00;
   color: white;
 }
-
-/* #game-hints {
-  text-align: center;
-  color: #46432f;
-}
-
-#game-hints h2 {
-  font-family: 'Caprasimo', cursive;
-  font-size: 2rem;
-  margin: 0;
-}
-
-#game-hints ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#game-hints button {
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  color: #23221f;
-  font: inherit;
-  margin-top: 1.5rem;
-} */ 
 
 @keyframes slide-in-from-left {
   0% {
@@ -321,16 +295,16 @@ ol {
 
 @keyframes pulse {
   0% {
-    border-color: #951d1d;
-    box-shadow: 0 0 0 0 rgba(246, 227, 90, 0.4);
+    border-color: #0d4056;
+    box-shadow: 0 0 0 0 rgba(90, 194, 246, 0.4);
   }
   50% {
-    border-color: #f8c031;
-    box-shadow: 0 0 0 0.5rem rgba(248, 165, 49, 0);
+    border-color: #5b60c8;
+    box-shadow: 0 0 0 0.5rem rgba(49, 59, 248, 0);
   }
   100% {
-    border-color: #f6e35a;
-    box-shadow: 0 0 0 0 rgba(246, 227, 90, 0);
+    border-color: #a0a4e9;
+    box-shadow: 0 0 0 0 rgba(116, 91, 255, 0);
   }
 }
 
