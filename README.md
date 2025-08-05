@@ -1,7 +1,7 @@
-# Tic tac toe (Крестики-нолики)
+# Tic tac toe
 
-Использовались:
-- библиотека React;
-- css анимации.
+In project are used:
+- React library;
+- css animation.
 
-*Является pet-project-ом.*
+
